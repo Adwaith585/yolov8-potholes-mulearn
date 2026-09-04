@@ -1,4 +1,4 @@
-# 🛣️ YOLOv8 Pothole Segmentation & Detection
+# YOLOv8 Pothole Segmentation & Detection
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![YOLOv8](https://img.shields.io/badge/YOLO-v8-green.svg)
@@ -8,19 +8,19 @@ A complete machine learning pipeline for detecting and segmenting potholes in ro
 
 ---
 
-## 🚀 Features
+## Features
 - **YOLOv8 Segmentation**: Utilizes state-of-the-art YOLO architecture to accurately mask out potholes.
 - **Local Inference**: Includes headless scripts (`detect.py`) for processing images directly on your machine.
 - **Interactive Web App**: A completely functional Streamlit application (`app.py`) for real-time inference via a local web interface.
 
-## 📂 Repository Structure
+## Repository Structure
 - `train.py`: The pipeline used for fine-tuning YOLOv8 on our localized pothole dataset.
 - `detect.py`: Console-based inference script for rapid model validation.
 - `app.py`: Streamlit web-based UI for uploading images and evaluating them visually.
 - `weight/`: Contains the optimized local weights (`best.pt`) post-training.
 - `result/`: Hosts local outputs from headless automated validation loops.
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 1. Clone the repository:
    ```bash
@@ -32,7 +32,7 @@ A complete machine learning pipeline for detecting and segmenting potholes in ro
    pip install -r requirements.text
    ```
 
-## 💻 Usage
+## Usage
 
 ### Starting the Web App
 To launch the interactive GUI, simply run:
