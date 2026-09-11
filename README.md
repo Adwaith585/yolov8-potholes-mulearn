@@ -1,3 +1,12 @@
+---
+title: YOLOv8 Pothole Detection Mulearn
+colorFrom: indigo
+colorTo: blue
+sdk: streamlit
+app_file: app.py
+pinned: false
+---
+
 # YOLOv8 Pothole Segmentation & Detection
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
